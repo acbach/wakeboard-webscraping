@@ -10,10 +10,10 @@ const fs = require("fs");
       { waitUntil: "networkidle2" }
     );
 
-    var startId = 260;
+    var startId = 2830;
     var batchSize = 10;
 
-    while (startId < 2000) {
+    while (startId < 4000) {
       const promises = [];
       for (let i = 0; i < batchSize; i++) {
         const promise = new Promise(async function(resolve, reject) {
