@@ -86,7 +86,7 @@ const fs = require("fs");
               wakepark.crawledFrom = link;
               console.log(wakepark);
               fs.writeFile(
-                `wakescout/${id}.json`,
+                `data/wakescout/28012020/${id}.json`,
                 JSON.stringify(wakepark),
                 function(err) {
                   if (err) throw err;
